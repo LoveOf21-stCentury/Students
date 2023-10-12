@@ -14,7 +14,6 @@ public class Presenter {
 
     public void addStudent(String name, int age) {
         service.addStudent(name, age);
-        // TODO: 10/11/2023 какой-то ответ
         System.out.println();
 //        getStudentList();1
 

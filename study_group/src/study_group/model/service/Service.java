@@ -1,6 +1,5 @@
 package study_group.model.service;
 
-import study_group.model.builder.MyStudentBuilder;
 import study_group.model.student.Student;
 import study_group.model.group.StudentGroup;
 
@@ -10,8 +9,6 @@ public class Service {
     private StudentGroup<Student> group;
 
     public Service() {
-        // TODO: 10/11/2023 delete builder
-//        builder = new MyStudentBuilder<>();
         group = new StudentGroup<>();
     }
 

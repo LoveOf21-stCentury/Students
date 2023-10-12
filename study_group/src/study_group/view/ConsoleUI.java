@@ -83,7 +83,7 @@ public class ConsoleUI implements View {
     }
 
     private boolean checkCommand(int numbCommand) {
-        if (numbCommand < menu.getSize()) {
+        if (numbCommand <= menu.getSize()) {
             return true;
         } else {
             inputError();
